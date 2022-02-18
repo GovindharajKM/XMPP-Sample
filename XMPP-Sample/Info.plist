@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSContactsUsageDescription</key>
+	<string>Getting contact details for chat </string>
 </dict>
 </plist>

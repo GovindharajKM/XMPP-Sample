@@ -20,8 +20,8 @@
 		4463BBFD27BE3E600081AEAA /* XMPP_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463BBFC27BE3E600081AEAA /* XMPP_SampleUITests.swift */; };
 		4463BBFF27BE3E600081AEAA /* XMPP_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463BBFE27BE3E600081AEAA /* XMPP_SampleUITestsLaunchTests.swift */; };
 		4463BC0C27BE3EB50081AEAA /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463BC0B27BE3EB50081AEAA /* ParentViewController.swift */; };
-		44DAEFD327BE4ED500C0428F /* XMPPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DAEFD227BE4ED500C0428F /* XMPPManager.swift */; };
 		44DAEFD527BE728200C0428F /* XMPPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DAEFD427BE728200C0428F /* XMPPController.swift */; };
+		44DAEFD727BF62CD00C0428F /* ContactSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DAEFD627BF62CD00C0428F /* ContactSync.swift */; };
 		8503F9252E14456BBB08A187 /* Pods_XMPP_Sample_XMPP_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75ECF88F1ADE33A7E475B1B /* Pods_XMPP_Sample_XMPP_SampleUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,8 +59,8 @@
 		4463BBFC27BE3E600081AEAA /* XMPP_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPP_SampleUITests.swift; sourceTree = "<group>"; };
 		4463BBFE27BE3E600081AEAA /* XMPP_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPP_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4463BC0B27BE3EB50081AEAA /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
-		44DAEFD227BE4ED500C0428F /* XMPPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPPManager.swift; sourceTree = "<group>"; };
 		44DAEFD427BE728200C0428F /* XMPPController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMPPController.swift; sourceTree = "<group>"; };
+		44DAEFD627BF62CD00C0428F /* ContactSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSync.swift; sourceTree = "<group>"; };
 		6EEC0845AFF13324068B6F60 /* Pods-XMPP-Sample-XMPP-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP-Sample-XMPP-SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-XMPP-Sample-XMPP-SampleUITests/Pods-XMPP-Sample-XMPP-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9463C6BD76A348191999F3BF /* Pods-XMPP-Sample-XMPP-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPP-Sample-XMPP-SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-XMPP-Sample-XMPP-SampleUITests/Pods-XMPP-Sample-XMPP-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AA7E1BC732C3F2D37E58CDC1 /* Pods_XMPP_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPP_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,8 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				4463BBD827BE3E5F0081AEAA /* AppDelegate.swift */,
+				44DAEFD627BF62CD00C0428F /* ContactSync.swift */,
 				44DAEFD427BE728200C0428F /* XMPPController.swift */,
-				44DAEFD227BE4ED500C0428F /* XMPPManager.swift */,
 				4463BBDC27BE3E5F0081AEAA /* LoginViewController.swift */,
 				4463BC0B27BE3EB50081AEAA /* ParentViewController.swift */,
 				4463BBDA27BE3E5F0081AEAA /* SceneDelegate.swift */,
@@ -249,6 +249,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Govind+Vaishu";
 				TargetAttributes = {
 					4463BBD427BE3E5F0081AEAA = {
 						CreatedOnToolsVersion = 13.0;
@@ -421,8 +422,8 @@
 				4463BBDD27BE3E5F0081AEAA /* LoginViewController.swift in Sources */,
 				44DAEFD527BE728200C0428F /* XMPPController.swift in Sources */,
 				4463BBD927BE3E5F0081AEAA /* AppDelegate.swift in Sources */,
-				44DAEFD327BE4ED500C0428F /* XMPPManager.swift in Sources */,
 				4463BBE327BE3E5F0081AEAA /* XMPP_Sample.xcdatamodeld in Sources */,
+				44DAEFD727BF62CD00C0428F /* ContactSync.swift in Sources */,
 				4463BC0C27BE3EB50081AEAA /* ParentViewController.swift in Sources */,
 				4463BBDB27BE3E5F0081AEAA /* SceneDelegate.swift in Sources */,
 			);

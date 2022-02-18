@@ -3,7 +3,9 @@
 //  XMPP-Sample
 //
 //  Created by Govindharaj Murugan on 17/02/22.
+//  Copyright © 2022 Govind+Vaishu. All rights reserved.
 //
+
 
 import UIKit
 import CoreData
@@ -22,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
 //        window?.makeKeyAndVisible()
         
-        DDLog.add(DDTTYLogger.sharedInstance!, with: DDLogLevel.all)
+//        DDLog.add(DDTTYLogger.sharedInstance!, with: DDLogLevel.all)
         
 //        XMPPManager.shared.connectStream()
         

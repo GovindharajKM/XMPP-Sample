@@ -1,9 +1,11 @@
 //
 //  ParentViewController.swift
-//  XMPPSample
+//  XMPP-Sample
 //
 //  Created by Govindharaj Murugan on 17/02/22.
+//  Copyright © 2022 Govind+Vaishu. All rights reserved.
 //
+
 
 import UIKit
 import XMPPFramework
@@ -30,8 +32,6 @@ class ParentViewController: UIViewController {
             self.performSegue(withIdentifier: "Home.To.Login", sender: self)
         }
     }
-    
-   
 }
 
 extension ParentViewController : ChatDelegate {
@@ -75,4 +75,3 @@ extension ParentViewController: UITableViewDelegate, UITableViewDataSource {
     */
     
 }
-

@@ -3,7 +3,9 @@
 //  XMPP-Sample
 //
 //  Created by Govindharaj Murugan on 17/02/22.
+//  Copyright © 2022 Govind+Vaishu. All rights reserved.
 //
+
 
 import UIKit
 

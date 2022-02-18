@@ -1,10 +1,10 @@
 //
 //  XMPPController.swift
-//  CrazyMessages
+//  XMPP-Sample
 //
-//  Created by Andres on 7/21/16.
-//  Copyright © 2016 Andres. All rights reserved.
-//
+//  Created by Govindharaj Murugan on 17/02/22.
+//  Copyright © 2022 Govind+Vaishu. All rights reserved.
+
 
 import Foundation
 import XMPPFramework
@@ -16,7 +16,7 @@ enum XMPPControllerError: Error {
 class XMPPController: NSObject {
 	
     var xmppStream: XMPPStream
-    var delegate:ChatDelegate!
+//    var delegate: ChatDelegate?
     let xmppRosterStorage = XMPPRosterCoreDataStorage()
     
 	let hostName: String
@@ -51,7 +51,6 @@ class XMPPController: NSObject {
         if !self.xmppStream.isDisconnected {
 			return
 		}
-
         do {
             try self.xmppStream.connect(withTimeout: XMPPStreamTimeoutNone)
             print("Connection success")
@@ -134,11 +133,11 @@ extension XMPPController: XMPPStreamDelegate, XMPPRosterDelegate {
         
         if presenceFromUser != myUsername {
             print("Did receive presence from \(String(describing: presenceFromUser))")
-            if presenceType == "available" {
-                self.delegate.buddyWentOnline(name: "\(String(describing: presenceFromUser))@gmail.com")
-            } else if presenceType == "unavailable" {
-                self.delegate.buddyWentOffline(name: "\(String(describing: presenceFromUser))@gmail.com")
-            }
+//            if presenceType == "available" {
+//                self.delegate.buddyWentOnline(name: "\(String(describing: presenceFromUser))@gmail.com")
+//            } else if presenceType == "unavailable" {
+//                self.delegate.buddyWentOffline(name: "\(String(describing: presenceFromUser))@gmail.com")
+//            }
         }
     }
     
